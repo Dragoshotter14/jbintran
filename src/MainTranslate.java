@@ -31,7 +31,9 @@ public class MainTranslate {
             System.out.print("\nPlease enter your binary code here:");
             bincode = sc.nextInt();
         }
-        else {}
+        else {
+            System.out.print("You have entered the wrong number, exiting.");
+        }
 
         /* System.out.printf("You have entered the following binary code: %08d%n", bincode);*/
         sc.close();
