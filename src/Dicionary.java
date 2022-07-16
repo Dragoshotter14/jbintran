@@ -1,0 +1,60 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Dicionary {
+    public static void main(String[] args){
+        Map btln = new HashMap();
+        btln.put("a" ,"01100001");
+        btln.put("A","01000001");
+        btln.put("b","01100010");
+        btln.put("B","01000010");
+        btln.put("c","01100011");
+        btln.put("C","01000011");
+        btln.put("d","01100100");
+        btln.put("D","01000100");
+        btln.put("e","01100101");
+        btln.put("E","01000101");
+        btln.put("f","01100110");
+        btln.put("F","01000110");
+        btln.put("g","01100111");
+        btln.put("G","01000111");
+        btln.put("h","01101000");
+        btln.put("H","01001000");
+        btln.put("i","01101001");
+        btln.put("I","01001001");
+        btln.put("j","01101010");
+        btln.put("J","01001010");
+        btln.put("k","01101011");
+        btln.put("K","01001011");
+        btln.put("l","01101100");
+        btln.put("L","01001100");
+        btln.put("m","01101101");
+        btln.put("M","01001101");
+        btln.put("n","01101110");
+        btln.put("N","01001110");
+        btln.put("o","01101111");
+        btln.put("O","01001111");
+        btln.put("p","01110000");
+        btln.put("P","01010000");
+        btln.put("q","01110001");
+        btln.put("Q","01010001");
+        btln.put("r","01110010");
+        btln.put("R","01010010");
+        btln.put("s","01110011");
+        btln.put("S","01010011");
+        btln.put("t","01110100");
+        btln.put("T","01010100");
+        btln.put("u","01110101");
+        btln.put("U","01010101");
+        btln.put("v","01110110");
+        btln.put("V","01010110");
+        btln.put("w","01110111");
+        btln.put("W","01010111");
+        btln.put("x","01111000");
+        btln.put("X","01011000");
+        btln.put("y","01111001");
+        btln.put("Y","01011001");
+        btln.put("z","01111010");
+        btln.put("Z","01011010");
+    }
+}
