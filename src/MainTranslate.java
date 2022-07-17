@@ -195,7 +195,7 @@ public class MainTranslate {
                             }
                         }
                     }catch (InputMismatchException e){
-                        System.out.print("Sorry, you didi not enter a phrase/word.");
+                        System.out.print("Sorry, you did not enter a phrase/word.");
                         break;
                     }
                 } else {
