@@ -11,25 +11,24 @@ public class MainTranslate {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        String bincode;
+        int bincode;
         int option;
         String wordcode;
 
         System.out.println("Hi, this is my binary code translator developed in java, hope you like it.");
         while (true) {
-            System.out.print("\nYou want to convert word/number to binary code or binary code to number/word; please enter 1 or 2 proportionally:");
+            System.out.print("\nYou want to convert word/number to binary code, binary code to number/word or quit the program?; please enter 1, 2 or 3 proportionally:");
             try {
                 option = sc.nextInt();
                 sc.nextLine();
                 if (option == 1) {
-                    try {
                         System.out.print("Please type your binary code here: (development)");
-                        bincode = sc.nextLine();
-
-                    }catch (InputMismatchException e){
-                        System.out.print("Sorry, you did not enter a binary number.");
-                        break;
-                    }
+                        bincode = sc.nextInt();
+                        try {
+                        } catch (InputMismatchException e){
+                         System.out.print("Your number is too large for a binary code");
+                         break;
+                        }
                 } else if (option == 2) {
                         System.out.print("Please type your phrase/word here:");
                         wordcode = sc.nextLine();
@@ -199,6 +198,9 @@ public class MainTranslate {
                             System.out.print("You did not type a phrase/word.");
                             break;
                         }
+                } else if (option == 3) {
+                    System.out.print("You have chosen to leave the program.");
+                    break;
                 } else {
                     System.out.print("You have entered the wrong number, exiting.");
                     break;
